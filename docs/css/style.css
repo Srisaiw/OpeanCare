@@ -141,7 +141,7 @@ footer {
 }
 
 
-/* ================= SPECIALTIES ================= */
+
 .specialties {
   padding: 80px 60px;
 }
@@ -371,3 +371,71 @@ footer {
   border-radius: 6px;
   margin-bottom: 10px;
 }
+
+/* ================= DARK MODE ================= */
+
+body.dark {
+  background: #121212;
+  color: #ffffff;
+}
+
+/* Always make text white in dark mode */
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6,
+body.dark p,
+body.dark a,
+body.dark span,
+body.dark div,
+body.dark li {
+  color: #ffffff !important;
+}
+
+/* Header + Nav */
+body.dark header {
+  background: #1e1e1e;
+  border-color: #333;
+}
+
+body.dark nav a {
+  color: #ffffff;
+}
+
+/* Hero */
+body.dark .hero {
+  background: #1a1a1a;
+}
+
+/* Feature Cards */
+body.dark .feature-card,
+body.dark .stat-box,
+body.dark .testimonial-box,
+body.dark .price-card,
+body.dark .step-card,
+body.dark .logo-box,
+body.dark .specialties-list div,
+body.dark .value-card,
+body.dark .team-card,
+body.dark .special-card,
+body.dark .faq-item {
+  background: #222;
+  border-color: #333;
+}
+
+/* Buttons */
+body.dark .btn,
+body.dark button {
+  background: #444;
+  color: #ffffff;
+}
+
+/* Footer */
+body.dark footer {
+  background: #1e1e1e;
+  color: #ffffff;
+}
+
+
